@@ -2,7 +2,7 @@ name: GopherQueue CI/CD Pipelines
 
 on:
   push:
-    branches: [main, master, dev]
+    branches: [main, master, dev, release/*]
   pull_request:
     branches: [main, master]
 
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
-          go-version: "1.23"
+          go-version-file: "go.mod"
           cache: true
 
       - name: Run Unit Tests
@@ -39,7 +39,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
-          go-version: "1.23"
+          go-version-file: "go.mod"
           cache: true
 
       - name: Build GopherQueue Packages

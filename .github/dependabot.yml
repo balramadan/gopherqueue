@@ -2,7 +2,7 @@
 version: 2
 updates:
   # Maintain Go module dependencies at repository root
-  - package-ecosystem: "gofmod"
+  - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -11,7 +11,7 @@ updates:
     open-pull-requests-limit: 10
 
   # Maintain npm/pnpm dependencies for Vue Dashboard in /web
-  - package-ecosystem: "pnpm"
+  - package-ecosystem: "npm"
     directory: "/web"
     schedule:
       interval: "weekly"
