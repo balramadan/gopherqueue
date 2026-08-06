@@ -7,9 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules must NEVER be committed
 node_modules
+
+# macOS / OS files
 .DS_Store
-dist
+
+# Note: web/dist MUST be committed so Go embed (//go:embed dist/*) works for end-users!
+# dist
+
 dist-ssr
 coverage
 *.local
