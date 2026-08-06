@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/balramadan/gopherqueue/discussions
+    about: Ask questions, request help, or discuss ideas with the GopherQueue community.
+  - name: Documentation
+    url: https://pkg.go.dev/github.com/balramadan/gopherqueue
+    about: Read the official GoDoc package documentation.
