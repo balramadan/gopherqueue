@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lucide/vue':
-        specifier: ^1.28.0
-        version: 1.28.0(vue@3.5.40(typescript@7.0.2))
+        specifier: ^1.38.0
+        version: 1.38.0(vue@3.5.40(typescript@7.0.2))
       pinia:
         specifier: ^4.0.2
         version: 4.0.2(@vue/devtools-api@8.2.1)(typescript@7.0.2)(vue@3.5.40(typescript@7.0.2))
@@ -240,8 +240,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@lucide/vue@1.28.0':
-    resolution: {integrity: sha512-cO89UyNM/0i2Srdi04nFWeEOQkqzDZlM2ehtWyBhcMpRTJDKpMZPCGAVlmVBgBgr5HaeL5L6FsU8RHsOdwXtKw==}
+  '@lucide/vue@1.38.0':
+    resolution: {integrity: sha512-65f+77mbqXaBwi3I33JujaUpyOMvQfBc5sNmKS5NEc7PRbV/cDkuCcWSu/hrp0sEPhv8MDPDUdOVCtag06iDGg==}
     peerDependencies:
       vue: '>=3.0.1'
 
@@ -1448,7 +1448,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lucide/vue@1.28.0(vue@3.5.40(typescript@7.0.2))':
+  '@lucide/vue@1.38.0(vue@3.5.40(typescript@7.0.2))':
     dependencies:
       vue: 3.5.40(typescript@7.0.2)
 
