@@ -3,7 +3,7 @@ module github.com/balramadan/gopherqueue
 go 1.26.5
 
 require (
-	github.com/balramadan/distlimit v1.2.0
+	github.com/balramadan/distlimit v1.2.1
 	github.com/redis/go-redis/v9 v9.21.0
 )
 

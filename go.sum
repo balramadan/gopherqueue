@@ -1,5 +1,5 @@
-github.com/balramadan/distlimit v1.2.0 h1:EMYzLMhGQ18OMRZKlcSEK7jp97BKYWnO5sj7tL3hMV0=
-github.com/balramadan/distlimit v1.2.0/go.mod h1:B0C/J6iZ9o20cNDZ+U+sswFDSZcgwJpSlCepYEAtvRQ=
+github.com/balramadan/distlimit v1.2.1 h1:v3CROhPeI77i/uUMorncNzLYJYJ7t4HVm4G1cURDjpA=
+github.com/balramadan/distlimit v1.2.1/go.mod h1:B0C/J6iZ9o20cNDZ+U+sswFDSZcgwJpSlCepYEAtvRQ=
 github.com/bsm/ginkgo/v2 v2.12.0 h1:Ny8MWAHyOepLGlLKYmXG4IEkioBysk6GpaRTLC8zwWs=
 github.com/bsm/ginkgo/v2 v2.12.0/go.mod h1:SwYbGRRDovPVboqFv0tPTcG1sN61LM1Z4ARdbAV9g4c=
 github.com/bsm/gomega v1.27.10 h1:yeMWxP2pV2fG3FgAODIY8EiRE3dy0aeFYt4l7wh6yKA=
